@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TemplateF411"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TemplateF411.elf">
+				<Option output="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/TemplateF411.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/Core/Inc"/>
+					<Add directory="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc"/>
+					<Add directory="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/SYSTEM/Inc"/>
+					<Add directory="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/USER/Inc"/>
+					<Add directory="d:\embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="d:\embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="d:\embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="d:\embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="d:\embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="d:\embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 TemplateF411.elf"/>
+					<CompileFile command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TemplateF411.elf/fast">
+				<Option output="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/TemplateF411.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/Core/Inc"/>
+					<Add directory="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc"/>
+					<Add directory="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/SYSTEM/Inc"/>
+					<Add directory="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/USER/Inc"/>
+					<Add directory="d:\embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="d:\embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="d:\embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="d:\embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="d:\embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="d:\embedded\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 TemplateF411.elf/fast"/>
+					<CompileFile command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Embedded/MinGW/bin/mingw32-make.exe -f &quot;H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/CORE/Inc/core_cm4.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/CORE/Inc/core_cm4_simd.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/CORE/Inc/core_cmFunc.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/CORE/Inc/core_cmInstr.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/misc.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_adc.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_can.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_crc.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_cryp.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_dac.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_dbgmcu.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_dcmi.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_dma.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_dma2d.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_exti.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_flash.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_flash_ramfunc.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_gpio.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_hash.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_i2c.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_iwdg.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_ltdc.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_pwr.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_rcc.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_rng.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_rtc.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_sai.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_sdio.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_spi.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_syscfg.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_tim.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_usart.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/inc/stm32f4xx_wwdg.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/misc.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_adc.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_can.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_crc.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_cryp.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_cryp_aes.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_cryp_des.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_cryp_tdes.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_dac.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_dbgmcu.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_dcmi.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_dma.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_dma2d.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_exti.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_flash.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_flash_ramfunc.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_gpio.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_hash.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_hash_md5.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_hash_sha1.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_i2c.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_iwdg.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_ltdc.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_pwr.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_rcc.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_rng.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_rtc.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_sai.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_sdio.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_spi.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_syscfg.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_tim.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_usart.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/FWLIB/src/stm32f4xx_wwdg.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/STM32F407VETx_FLASH.ld">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/SYSTEM/Inc/delay.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/SYSTEM/Inc/sys.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/SYSTEM/Inc/usart.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/SYSTEM/Src/delay.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/SYSTEM/Src/sys.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/SYSTEM/Src/usart.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/USER/Inc/stm32f4xx.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/USER/Inc/stm32f4xx_conf.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/USER/Inc/stm32f4xx_it.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/USER/Inc/system_stm32f4xx.h">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/USER/Src/main.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/USER/Src/stm32f4xx_it.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/USER/Src/system_stm32f4xx.c">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/startup/startup_stm32f40_41xxx.s">
+			<Option target="TemplateF411.elf"/>
+		</Unit>
+		<Unit filename="H:/01_My_Projects/01_Embedded_MCU_Projects/01_JLC_STM32F407VET6/Template/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

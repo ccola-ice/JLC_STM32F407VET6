@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="995fef1a-73b7-456b-92c5-fe3ff9ca85da" name="Basic_Project" defaultType="TOOL">
+      <configuration id="202b1202-7ccd-4dea-89b1-63bfc1d693e6" name="Basic_Project" toolchainName="MinGW-STM32" />
+    </target>
+  </component>
+</project>
