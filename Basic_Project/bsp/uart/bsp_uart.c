@@ -1,6 +1,9 @@
 #include "bsp_uart.h"
 #include "stdio.h"
 
+
+
+
 void uart1_init(uint32_t __Baud)
 {
 	GPIO_InitTypeDef GPIO_InitStructure;	
