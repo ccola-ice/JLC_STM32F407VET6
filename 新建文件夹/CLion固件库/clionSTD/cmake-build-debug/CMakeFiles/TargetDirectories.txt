@@ -1,3 +1,0 @@
-D:/Users/Administrator/Desktop/HARDWARE/clionSTD/cmake-build-debug/CMakeFiles/clionSTD.elf.dir
-D:/Users/Administrator/Desktop/HARDWARE/clionSTD/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Users/Administrator/Desktop/HARDWARE/clionSTD/cmake-build-debug/CMakeFiles/rebuild_cache.dir
